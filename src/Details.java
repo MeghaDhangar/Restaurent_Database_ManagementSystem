@@ -26,6 +26,7 @@ public class Details extends JFrame {
     public  void Detail(){
 
         connect();
+        
         if (Home.method==1){
             customerMenu();
         }
