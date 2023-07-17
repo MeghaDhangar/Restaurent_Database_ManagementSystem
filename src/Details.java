@@ -1,5 +1,4 @@
 import net.proteanit.sql.DbUtils;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -236,7 +235,6 @@ public class Details extends JFrame {
         }
 
     }
-
 
     void searchData(){
         try {
