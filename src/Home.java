@@ -6,7 +6,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.sql.*;
-
 import net.proteanit.sql.DbUtils;
 public class Home extends  JFrame {
      JPanel mainn;
@@ -67,7 +66,6 @@ public class Home extends  JFrame {
                 maxOrder();
             }
         });
-
         mostOrderedButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -186,7 +184,6 @@ public class Home extends  JFrame {
             }
         });
     }
-
     void maxOrder()  {
         try {
             String q = "select cstmr_name,mob_number,count(order_id)as" +
